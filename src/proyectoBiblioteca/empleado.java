@@ -1,6 +1,7 @@
 package proyectoBiblioteca;
 
 public class empleado {
+    public class empleado {
     //Atributos
     private String cargoOcupa;
     private informacionPersona informacionPersona;
@@ -9,16 +10,16 @@ public class empleado {
     public empleado(String cargoOcupa, informacionPersona informacionPersona, biblioteca biblioteca) {
         this.cargoOcupa = cargoOcupa;
         this.informacionPersona = informacionPersona;
-        this.biblioteca = biblioteca; 
+        this.biblioteca = biblioteca;
     }
 
     //Métodos
-    public void agregarEmpleado(informacionPersona informacionPersona, biblioteca biblioteca)
+    public void agregarEmpleado(String cargoOcupa, informacionPersona informacionPersona, biblioteca biblioteca)
     {
 
     }
     
-    public boolean borrarEmpleado(informacionPersona informacionPersona, biblioteca biblioteca)
+    public void borrarEmpleado(informacionPersona informacionPersona, biblioteca biblioteca)
     {
 
     }
