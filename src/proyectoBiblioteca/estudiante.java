@@ -9,7 +9,7 @@ public class estudiante {
     private informacionPersona informacionPersona;
     private biblioteca biblioteca;
 
-    public empleado(String programaAcademico, informacionPersona informacionPersona, biblioteca biblioteca) {
+    public estudiante(String programaAcademico, informacionPersona informacionPersona, biblioteca biblioteca) {
         this.programaAcademico = programaAcademico;
         this.informacionPersona = informacionPersona;
         this.biblioteca = biblioteca;
