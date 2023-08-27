@@ -1,7 +1,7 @@
 package proyectoBiblioteca;
 
 public class empleado {
-    public class empleado {
+
     //Atributos
     private String cargoOcupa;
     private informacionPersona informacionPersona;
