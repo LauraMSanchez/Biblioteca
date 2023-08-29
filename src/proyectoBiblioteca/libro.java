@@ -19,7 +19,7 @@ public class libro {
     this.biblioteca=biblioteca;
     }
 
-   //setter y getter de ISBN
+   //Setter y Getter 
    public int getISBN() {
     return ISBN;
 
@@ -27,7 +27,6 @@ public class libro {
     this.ISBN = ISBN;
    }
    
-   //setter y getter de Titulo
    public String getTitulo() {
     return titulo;
    }
@@ -36,7 +35,6 @@ public class libro {
     this.titulo = titulo;
    }
 
-   //setter y getter de Fecha
    public Date getFecha() {
     return fecha;
    }
@@ -45,7 +43,6 @@ public class libro {
     this.fecha = fecha;
    }
 
-   //setter y getter de NombreAutor
    public String getNombreAutor() {
     return nombreAutor;
    }
