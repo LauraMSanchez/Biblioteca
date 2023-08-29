@@ -7,7 +7,6 @@ public class informacionPersona{
     private String correo;
     private String telefono;
     private String direccionCiudad;
-    private biblioteca Biblioteca;
 
     //constructor
     public informacionPersona(String nombre,String identificacion,String correo,String telefono,String direccionCiudad){
