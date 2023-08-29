@@ -8,15 +8,13 @@ public class libro {
     private String titulo;
     private Date fecha;
     private String nombreAutor;
-    private biblioteca biblioteca;
 
     //constructor
-   public libro(int ISBN,String titulo,Date fecha,String nombreAutor,biblioteca biblioteca){
+   public libro(int ISBN,String titulo,Date fecha,String nombreAutor){
     this.ISBN=ISBN;
     this.titulo=titulo;
     this.fecha=fecha;
     this.nombreAutor=nombreAutor;
-    this.biblioteca=biblioteca;
     }
 
    //Setter y Getter 
