@@ -4,14 +4,13 @@ public class empleado {
     //atributos
     private String cargoOcupa;
     private informacionPersona informacionPersona;
-    private biblioteca biblioteca;
 
     //constructor
-    public empleado(String cargoOcupa, informacionPersona informacionPersona, biblioteca biblioteca) {
+    public empleado(String cargoOcupa, informacionPersona informacionPersona) {
         this.cargoOcupa = cargoOcupa;
         this.informacionPersona = informacionPersona;
-        this.biblioteca = biblioteca;
     }
+    
     //Setter y Getter
     public String getCargoOcupa() {
         return cargoOcupa;
