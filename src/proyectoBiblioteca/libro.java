@@ -1,4 +1,4 @@
-package proyectoBiblioteca;
+package co.edu.uniquindio.poo;
 
 import java.util.Date;
 
@@ -6,7 +6,7 @@ public class libro {
     //atributos
     private int ISBN;
     private String titulo;
-    private Date fecha;//no sabemos como importar  el dateTime
+    private Date fecha;
     private String nombreAutor;
     private biblioteca biblioteca;
 
@@ -17,19 +17,7 @@ public class libro {
     this.fecha=fecha;
     this.nombreAutor=nombreAutor;
     this.biblioteca=biblioteca;
-
-    //metodos
-   }public void AgregarLibro(int ISBN,String titulo,Date fecha,String nombreAutor,biblioteca biblioteca){
-
-   }public void BuscarLibroNombre(String título,biblioteca biblioteca){
-
-   }public void BuscarLibroCodigo(int ISBN,biblioteca biblioteca){
-
-   }public void eliminarLibro(int ISBN,String título,biblioteca biblioteca){
-
-   }public void infoLibro(int ISBN , String título , biblioteca biblioteca){
-    
-   }
+    }
 
    //setter y getter de ISBN
    public int getISBN() {
