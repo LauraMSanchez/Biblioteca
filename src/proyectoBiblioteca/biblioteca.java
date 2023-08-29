@@ -1,15 +1,17 @@
-package proyectoBiblioteca;
+package co.edu.uniquindio.poo;
 
 import java.util.ArrayList;
 
 public class biblioteca {
-
     //atributos
     private informacionPersona informacionPersona;
     private estudiante estudiante;
     private empleado empleado;
     private libro libro;
     private ArrayList<ArrayList<String>> servidor;
+    private  String busquedaEstudiantes;
+    private  String busquedaEmpleado;
+    private  String busquedaLibros;
 
     //constructor
     public biblioteca(informacionPersona informacionPersona,estudiante estudiante,empleado empleado,libro libro,ArrayList<ArrayList<String>> servidor){
@@ -20,47 +22,41 @@ public class biblioteca {
         this.servidor=servidor;
     }
     //metodos
-    public  void datosEstudiantes(informacionPersona informacionPersona , estudiante estudiante , ArrayList<ArrayList<String>> servidor){
-
-    }public void datosEmpleado(informacionPersona informacionPersona, empleado empleado  , ArrayList<ArrayList<String>> servidor){
-
-    }public void datosLibro(libro libro , ArrayList<ArrayList<String>> servidor){
+    public void agregarInfoPersona(){
 
     }
 
-    //setter y getter de InformacionPersona
-    public informacionPersona getInformacionPersona() {
-        return informacionPersona;
-    }public void setInformacionPersona(informacionPersona informacionPersona) {
-        this.informacionPersona = informacionPersona;
-    }
+    public void agregarEstudiante(estudiante estudiante,informacionPersona informacionPersona,ArrayList<ArrayList<String>> servidor){
 
-    //setter y getter de Estudiante
-    public estudiante getEstudiante() {
-        return estudiante;
-    }public void setEstudiante(estudiante estudiante) {
-        this.estudiante = estudiante;
-    }
+    }public void BuscarEstudianteID(String busquedaEstudiantes,ArrayList<ArrayList<String>> servidor){
 
-    //setter y getter de Empleado
-    public empleado getEmpleado() {
-        return empleado;
-    }public void setEmpleado(empleado empleado) {
-        this.empleado = empleado;
-    }
+    }public void eliminarEstudiante(String busquedaEstudiantes,ArrayList<ArrayList<String>> servidor){
 
-    //setter y getter de Libro
-    public libro getLibro() {
-        return libro;
-    }public void setLibro(libro libro) {
-        this.libro = libro;
-    }
+    }public void modificarEstudiante(String busquedaEstudiantes,ArrayList<ArrayList<String>> servidor){
 
-    //setter y getter de Servidor
-    public ArrayList<ArrayList<String>> getServidor() {
-        return servidor;
-    }
-    public void setServidor(ArrayList<ArrayList<String>> servidor) {
-        this.servidor = servidor;
+    }public void infoEstudiante(String busquedaEstudiantes,ArrayList<ArrayList<String>> servidor) {
+
+    }public void agregarEmpleado(empleado empleado,informacionPersona informacionPersona,ArrayList<ArrayList<String>> servidor){
+
+    }public void BuscarEmpleadoID(String busquedaEmpleado,ArrayList<ArrayList<String>> servidor){
+
+    }public void eliminarEmpleado(String busquedaEmpleado,ArrayList<ArrayList<String>> servidor){
+
+    }public void modificarEmpleado(String busquedaEmpleado,ArrayList<ArrayList<String>> servidor){
+
+    }public void infoEmpleado (String busquedaEmpleado,ArrayList<ArrayList<String>> servidor) {
+
+    }public void agregarLibro(libro libro,ArrayList<ArrayList<String>> servidor){
+
+    }public void buscarLibroNombre(String busquedaLibros,ArrayList<ArrayList<String>> servidor){
+
+    }public void buscarLibroCodigo(String busquedaLibros,ArrayList<ArrayList<String>> servidor){
+
+    }public void eliminarLibro(String busquedaLibros,ArrayList<ArrayList<String>> servidor){
+        
+    }public void modificarLibro(String busquedaLibros,ArrayList<ArrayList<String>> servidor){
+
+    }public void infoLibro(String busquedaLibros,ArrayList<ArrayList<String>> servidor){
+    
     }
 }
