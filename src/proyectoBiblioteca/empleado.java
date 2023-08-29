@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo;
+package proyectoBiblioteca;
 
 public class empleado {
     //atributos
